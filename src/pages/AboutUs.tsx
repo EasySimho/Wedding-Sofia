@@ -11,7 +11,8 @@ const AboutUs = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className="pt-16"
+      className="pt-16 overflow-hidden"
+
     >
       <section className="bg-white py-20">
         <div className="max-w-4xl mx-auto px-4 text-center">
